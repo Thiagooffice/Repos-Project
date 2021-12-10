@@ -107,5 +107,28 @@ export const IssuesList = styled.ul`
     }
 
 `
+export const PageActions = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    button{
+        outline:0;
+        border:0;
+        background: rgb(60,212,254);
+        background: linear-gradient(127deg, rgba(60,212,254,1) 11%, rgba(6,41,189,1) 30%, rgba(85,233,141,1) 58%, rgba(2,124,48,1) 90%);
+        color:#fff;
+        font-weight:bold;
+        padding:7px 12px;
+        border-radius:4px;
+        margin-top:3px;
+        margin-bottom: 22px;
+
+        &:disabled{
+            cursor:not-allowed;
+            opacity:0.5;
+        }
+    }
+`
 
     
